@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guud.com</title>
+
+  <!-- RESET CSS -->
+  <link rel="stylesheet" href="css/default.css">
+
+  <!-- FONT  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard-dynamic-subset.css">
+
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+  <!-- SLICK JS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script defer src="js/custom.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-inner">
+        <h1><a href="#"><img src="img/logo.png" alt="까사미아로고"></a></h1>
+        <nav>
+          <ul class="gnb">
+            <li>
+              <a href="#none">침실가구</a>
+              <ul class="submenu">
+                <li><a href="#none">침대</a></li>
+                <li><a href="#none">매트리스/토퍼</a></li>
+                <li><a href="#none">화장대/콘솔/거울</a></li>
+                <li><a href="#none">서랍장/협탁</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#none">옷장/수납장</a>
+              <ul class="submenu">
+                <li><a href="#none">옷장/붙방이장</a></li>
+                <li><a href="#none">드레스룸/행거</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#none">거실가구</a>
+              <ul class="submenu">
+                <li><a href="#none">소파</a></li>
+                <li><a href="#none">거실테이블</a></li>
+                <li><a href="#none">거실장</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#none">주방가구</a>
+              <ul class="submenu">
+                <li><a href="#none">식탁/테이블</a></li>
+                <li><a href="#none">홈바/아일랜드식탁</a></li>
+                <li><a href="#none">식탁세트</a></li>
+                <li><a href="#none">식탁의자</a></li>
+                <li><a href="#none">주방수납</a></li>
+                <li><a href="#none">주방ACC</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#none">서재가구</a>
+              <ul class="submenu">
+                <li><a href="#none">책상/책장/ACC</a></li>
+                <li><a href="#none">서재의자</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#none">유아/키즈룸</a>
+              <ul class="submenu">
+                <li><a href="#none">침대/메트리스</a></li>
+                <li><a href="#none">옷장/수납</a></li>
+                <li><a href="#none">책상/책장/ACC</a></li>
+                <li><a href="#none">학생의자</a></li>
+                <li><a href="#none">유아소가구</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#none">주방용품</a>
+              <ul class="submenu">
+                <li><a href="#none">식기/수저</a></li>
+                <li><a href="#none">컵/텀블러/물병</a></li>
+                <li><a href="#none">냄비/프라이팬</a></li>
+                <li><a href="#none">도마/칼/조리도구</a></li>
+                <li><a href="#none">와인/커피용품</a></li>
+                <li><a href="#none">주방수납/정리</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#none">홈인테리어</a>
+              <ul class="submenu">
+                <li><a href="#none">홈데코</a></li>
+                <li><a href="#none">아로마</a></li>
+                <li><a href="#none">조명</a></li>
+                <li><a href="#none">시계</a></li>
+                <li><a href="#none">거울</a></li>
+              </ul>
+            </li> 
+          </ul>
+        </nav>
+        <div class="header-right">
+          <div class="search">
+            <img src="img/icon_search.png" alt="검색버튼">
+          </div>
+          <div class="cart"><img src="img/icon_cart.png" alt="장바구니 버튼"></div>
+          <div class="login"><img src="img/icon_login.png" alt="로그인 버튼"></div>
+        </div>
+        <div class="search-window">
+          <input type="search" placeholder="브랜드 혹은 상품을 검색해보세요.">
+          <button><img src="img/icon_search.png" alt="검색버튼"></button>
+          <img src="img/close.png" class="close" alt="닫기버튼">
+        </div>
+        <div class="trigger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- HEADER FIXED 되었을때, 배경 보이게 하기 위해서 -->
+      <section class="visual-bg"></section>
+
+      <section class="visual">
+        <div class="visual-slider">
+          <div class="visualbg visual1">
+            <div class="txt">
+              <h2>까사미아 단독 최저가</h2>
+              <p>쓰임새 있는 아름다움을<br>오랜 전통의 브랜드 까사미아가 선사합니다</p>
+            </div>
+          </div>
+          <div class="visualbg visual2">
+            <div class="txt">
+              <h2>핸드메이드 테이블웨어</h2>
+              <p>고유의 스타일을 간직한<br>5가지 브랜드를 이곳에서 만나보세요</p>
+            </div>
+          </div>
+          <div class="visualbg visual3">
+            <div class="txt">
+              <h2>꿈꾸던 공간, 파우더룸</h2>
+              <p>로망이 담긴 화장대를<br>GUUD에서 이루어보세요</p>
+            </div>
+          </div>
+          <div class="visualbg visual4">
+            <div class="txt">
+              <h2>해외 디자인 브랜드 셀렉트샵</h2>
+              <p>차별화된 스타일을 선보이는<br>까사미아 공식 쇼핑몰에서 구경하세요</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="shortcut">
+        <h2 class="hide">가구 바로가기</h2>
+        <div class="inner">
+          <ul class="shortcut-slider">
+            <li>
+              <a href="#none">
+                <img src="img/shortcut-bed.png" alt="침대 이미지">
+                <span>침대</span>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="img/shortcut-sofa.png" alt="1인쇼파 이미지">
+                <span>1인 쇼파</span>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="img/shortcut-interior.png" alt="인테리어 이미지">
+                <span>인테리어</span>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="img/shortcut-shelf.png" alt="선반 이미지">
+                <span>선반</span>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="img/shortcut-closet.png" alt="수납장 이미지">
+                <span>수납장</span>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="img/shortcut-light.png" alt="조명 이미지">
+                <span>조명</span>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="img/shortcut-prop.png" alt="소품 이미지">
+                <span>소품</span>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <img src="img/shortcut-table.png" alt="테이블 이미지">
+                <span>테이블</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="home">
+        <h2 class="hide">까사미아 홈 인테리어 소개</h2>
+        <div class="inner">
+          <div class="heading">
+            <h3>매일 함께하는 홈</h3>
+            <p>
+              매일 봐도 질리지 않는 나만의 멋스러운 홈 인테리어
+            </p>
+          </div>
+          <div class="items">
+            <a href="#none">
+              <div class="image"></div>
+              <div class="txt">
+                <h4>합리적인 가격</h4>
+                <p>
+                  낮은 가격으로도 스타일, 기능 및 품질이 좋은 소비
+                </p>
+                <span>자세히 알아보기</span>
+                <div class="bell"></div>
+              </div>
+            </a>
+            <a href="#none">
+              <div class="image"></div>
+                <div class="txt">
+                <h4>고급스러운 소재</h4>
+                <p>
+                  한층 더 멋스럽게 내면을 디자인한 가구
+                </p>
+                <span>자세히 알아보기</span>
+                <div class="bell"></div>
+              </div>
+            </a>
+            <a href="#none">
+              <div class="image"></div>
+              <div class="txt">
+                <h4>우아하고 세련된 디자인</h4>
+                <p>
+                  감각적인 곡선을 이용한 우아한 디자인
+                </p>
+                <span>자세히 알아보기</span>
+                <div class="bell"></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="recommend">
+        <div class="inner">
+          <div class="heading">
+            <h3>금주 실시간 추천 상품</h3>
+          </div>
+          <div class="filter-menu">
+            <div class="category">
+              <input type="radio" name="filter-btn-name" class="filter-btn" id="label-all" data-filter="all" checked></input>
+              <input type="radio" name="filter-btn-name" class="filter-btn" id="label-sofa" data-filter="sofa"></input>
+              <input type="radio" name="filter-btn-name" class="filter-btn" id="label-table" data-filter="table"></input>
+              <input type="radio" name="filter-btn-name" class="filter-btn" id="label-chair" data-filter="chair"></input>
+              <input type="radio" name="filter-btn-name" class="filter-btn" id="label-interior" data-filter="interior"></input>
+              <input type="radio" name="filter-btn-name" class="filter-btn" id="label-light" data-filter="light"></input>
+              <label class="filter-label" for="label-all">전체</label>
+              <label class="filter-label" for="label-sofa">1인소파</label>
+              <label class="filter-label" for="label-table">테이블</label>
+              <label class="filter-label" for="label-chair">의자</label>
+              <label class="filter-label" for="label-interior">인테리어</label>
+              <label class="filter-label" for="label-light">조명</label>
+            </div>
+            <div class="filter-item-group">
+              <a href="#none" class="filter-item" data-type="chair">
+                <div class="image">
+                  <img src="img/recommend-img1.png" alt="의자">
+                </div>
+                <div class="txt">
+                  <h4><strong>[바이노만]</strong> For casamiashop 코모도 1인 리클라이너 화이트</h4>
+                  <div class="price">
+                    <span>18%</span> 619,000<em>원</em>
+                  </div>
+                  <div class="badge">
+                    <b>무료배송</b>
+                    <b>사은품</b>
+                  </div>
+                  <div class="rate">
+                    <div class="star">★★★★★</div>
+                    <em>5.0</em>
+                  </div>
+                </div>
+              </a>
+              <a href="#none" class="filter-item" data-type="sofa">
+                <div class="image">
+                  <img src="img/recommend-img2.png" alt="소파">
+                </div>
+                <div class="txt">
+                  <h4><strong>[시스디자인]</strong> 앙블레 발수 패브릭 1인 소파 (부클레 원단)</h4>
+                  <div class="price">
+                    <span>35%</span> 369,000<em>원</em>
+                  </div>
+                  <div class="badge">
+                    <b>무료배송</b>
+                  </div>
+                  <div class="rate">
+                    <div class="star">★★★★☆</div>
+                    <em>4.0</em>
+                  </div>
+                </div>
+              </a>
+              <a href="#none" class="filter-item" data-type="chair">
+                <div class="image size">
+                  <img src="img/recommend-img3.png" alt="의자">
+                </div>
+                <div class="txt">
+                  <h4><strong>[웨스트프롬]</strong> 모던 루케니 아쿠아텍스 1인용 소파 2colors(오토만 추가 가능)</h4>
+                  <div class="price">
+                    <span>48%</span> 459,000<em>원</em>
+                  </div>
+                  <div class="badge">
+                    <b>무료배송</b>
+                  </div>
+                  <div class="rate">
+                    <div class="star">★★★★☆</div>
+                    <em>4.0</em>
+                  </div>
+                </div>
+              </a>
+              <a href="#none" class="filter-item" data-type="chair">
+                <div class="image">
+                  <img src="img/recommend-img4.png" alt="의자">
+                </div>
+                <div class="txt">
+                  <h4><strong>[케이브홈]</strong> ABELI 아벨리 아웃도어 야외 테라스 로프 1인 소파 3color</h4>
+                  <div class="price">
+                    <span>8%</span> 357,880<em>원</em>
+                  </div>
+                  <div class="badge">
+                    <b>무료배송</b>
+                    <b>사은품</b>
+                  </div>
+                  <div class="rate">
+                    <div class="star">★★★☆☆</div>
+                    <em>3.0</em>
+                  </div>
+                </div>
+              </a>
+              <a href="#none" class="filter-item" data-type="table">
+                <div class="image">
+                  <img src="img/recommend-img5.png" alt="테이블">
+                </div>
+                <div class="txt">
+                  <h4><strong>[토비]</strong> 고무나무 원목 400 사이드 테이블 소파</h4>
+                  <div class="price">
+                    <span>53%</span> 59,000<em>원</em>
+                  </div>
+                  <div class="badge">
+                    <b>무료배송</b>
+                    <b>사은품</b>
+                  </div>
+                  <div class="rate">
+                    <div class="star">★★★★★</div>
+                    <em>5.0</em>
+                  </div>
+                </div>
+              </a>
+              <a href="#none" class="filter-item" data-type="interior">
+                <div class="image">
+                  <img src="img/recommend-img6.png" alt="화분">
+                </div>
+                <div class="txt">
+                  <h4><strong>[플랫츠]</strong> 팟커버 S + 수채화 고무나무</h4>
+                  <div class="price">
+                    <span>20%</span> 43,000<em>원</em>
+                  </div>
+                  <div class="badge">
+                    <b>무료배송</b>
+                    <b>사은품</b>
+                  </div>
+                  <div class="rate">
+                    <div class="star">★★★★★</div>
+                    <em>5.0</em>
+                  </div>
+                </div>
+              </a>
+              <a href="#none" class="filter-item" data-type="table">
+                <div class="image">
+                  <img src="img/recommend-img7.png" alt="식탁">
+                </div>
+                <div class="txt">
+                  <h4><strong>[까사미아]</strong> 보테 세라믹 원형식탁 4인세트 1100 브라운_올비아체어4EA</h4>
+                  <div class="price">
+                    <span>10%</span> 2,770,000<em>원</em>
+                  </div>
+                  <div class="badge">
+                    <b>무료배송</b>
+                    <b>사은품</b>
+                  </div>
+                  <div class="rate">
+                    <div class="star">★★★★☆</div>
+                    <em>4.0</em>
+                  </div>
+                </div>
+              </a>
+              <a href="#none" class="filter-item" data-type="light">
+                <div class="image">
+                  <img src="img/recommend-img8.png" alt="조명">
+                </div>
+                <div class="txt">
+                  <h4><strong>[라디룸]</strong> 모던보이 플로어 스탠드 [스피어] (4 color)</h4>
+                  <div class="price">
+                    <span>15%</span> 154,800<em>원</em>
+                  </div>
+                  <div class="badge">
+                    <b>무료배송</b>
+                    <b>사은품</b>
+                  </div>
+                  <div class="rate">
+                    <div class="star">★★★★★</div>
+                    <em>5.0</em>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <button class="btn-circle">상품 전체보기</button>
+        </div>
+      </section>
+      <section class="service">
+        <h2 class="hide">까사미아 서비스 소개</h2>
+        <div class="inner">
+          <div class="heading">
+            <h3>내게 딱 맞는 서비스</h3>
+            <p>
+              새로운 기억들로 다시 쌓일 수 있게, 빛나는 추억은 잘 보이는 곳에 전시하세요
+            </p>
+          </div>
+          <div class="service-video">
+            <video src="video/serivice-video.mp4" autoplay muted loop playsinline></video>
+          </div>
+        </div>
+      </section>
+      <section class="exhibition">
+        <div class="heading">
+          <h3>주방 소품 전시관</h3>
+          <p>
+            매장에 방문하지 않고 온라인으로 모든 제품을 탐험하세요
+          </p>
+        </div>
+        <div class="exhibition-slider">
+          <div class="first">
+            <a href="#none">
+              <div class="hover-bg">
+                <div class="txt">
+                  <h5>이런 분들에게 추천해요</h5>
+                  <p>
+                    소중한 공간에서 간편하게 스타일리쉬하게 분위기를 바꿔보고 싶어요
+                  </p>
+                </div>
+              </div>
+            </a>
+            <div class="wrap">
+              <a href="#none">
+                <div class="hover-bg">
+                  <div class="txt">
+                    <h5>이런 분들에게 추천해요</h5>
+                    <p>
+                      소중한 공간에서 간편하게 스타일리쉬하게 분위기를 바꿔보고 싶어요
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a href="#none">
+                <div class="hover-bg">
+                  <div class="txt">
+                    <h5>이런 분들에게 추천해요</h5>
+                    <p>
+                      소중한 공간에서 간편하게 스타일리쉬하게 분위기를 바꿔보고 싶어요
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="second">
+            <a href="#none">
+              <div class="hover-bg">
+                <div class="txt">
+                  <h5>이런 분들에게 추천해요</h5>
+                  <p>
+                    소중한 공간에서 간편하게 스타일리쉬하게 분위기를 바꿔보고 싶어요
+                  </p>
+                </div>
+              </div>
+            </a>
+            <div class="wrap">
+              <a href="#none">
+                <div class="hover-bg">
+                  <div class="txt">
+                    <h5>이런 분들에게 추천해요</h5>
+                    <p>
+                      소중한 공간에서 간편하게 스타일리쉬하게 분위기를 바꿔보고 싶어요
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <a href="#none">
+                <div class="hover-bg">
+                <div class="txt">
+                  <h5>이런 분들에게 추천해요</h5>
+                  <p>
+                    소중한 공간에서 간편하게 스타일리쉬하게 분위기를 바꿔보고 싶어요
+                  </p>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="third">
+            <div class="wrap">
+              <a href="#none">
+                <div class="hover-bg">
+                <div class="txt">
+                  <h5>이런 분들에게 추천해요</h5>
+                  <p>
+                    소중한 공간에서 간편하게 스타일리쉬하게 분위기를 바꿔보고 싶어요
+                  </p>
+                </div>
+              </div>
+              </a>
+              <a href="#none">
+                <div class="hover-bg">
+                <div class="txt">
+                  <h5>이런 분들에게 추천해요</h5>
+                  <p>
+                    소중한 공간에서 간편하게 스타일리쉬하게 분위기를 바꿔보고 싶어요
+                  </p>
+                </div>
+              </div>
+              </a>
+            </div>
+            <a href="#none">
+              <div class="hover-bg">
+                <div class="txt">
+                  <h5>이런 분들에게 추천해요</h5>
+                  <p>
+                    소중한 공간에서 간편하게 스타일리쉬하게 분위기를 바꿔보고 싶어요
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="first">
+            <a href="#none">
+              <div class="hover-bg">
+                <div class="txt">
+                  <h5>이런 분들에게 추천해요</h5>
+                  <p>
+                    소중한 공간에서 간편하게 스타일리쉬하게 분위기를 바꿔보고 싶어요
+                  </p>
+                </div>
+              </div>
+            </a>
+            <div class="wrap">
+              <a href="#none">
+                <div class="hover-bg">
+                <div class="txt">
+                  <h5>이런 분들에게 추천해요</h5>
+                  <p>
+                    소중한 공간에서 간편하게 스타일리쉬하게 분위기를 바꿔보고 싶어요
+                  </p>
+                </div>
+              </div>
+              </a>
+              <a href="#none">
+                <div class="hover-bg">
+                <div class="txt">
+                  <h5>이런 분들에게 추천해요</h5>
+                  <p>
+                    소중한 공간에서 간편하게 스타일리쉬하게 분위기를 바꿔보고 싶어요
+                  </p>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="magazine">
+        <h2 class="hide">까사미아 매거진</h2>
+        <div class="inner">
+          <div class="heading">
+            <h3>MAGAZINE</h3>
+          </div>
+          <div class="article-wrap">
+            <a href="#none">
+              <div class="image">
+                <img src="img/magazine-img1.jpg" alt="화가 김보희 이미지">
+              </div>
+              <div class="txt">
+                <h4>내가 사랑한 풍경들</h4>
+                <span>화가 김보희</span>
+                <p>
+                  구상풍경회화의 대가로 꼽히는 김보희는 동서양 회화의 전통 양식을 깊이 분석해 그만의 예술적 세계관을 확고히 세운 작가다. 제주도에 정착한 이후로는 바다와 야자수, 열매처럼 자연이 녹아든 일상의 정경을 그리는 작가는 말한다. “사랑하는 것만 그리기에도 시간이 부족하다”고.
+                </p>
+                <em>화가 김보희 전시장 보러가기</em>
+              </div>
+            </a>
+            <a href="#none">
+              <div class="image">
+                <img src="img/magazine-img2.jpg" alt="비스포크 숙면 라이프 이미지">
+              </div>
+              <div class="txt">
+                <h4>비스포크 숙면 라이프</h4>
+                <span>MATERASSO 마테라소</span>
+                <p>
+                  개인의 취향과 라이프스타일이 중요해진 초개인화 시대, 홈 인테리어 역시 변하고 있다. 신세계까사는 가장 사적이고도 기능적인 가구 침대를 중심으로 트렌드에 발맞추고 있다. 비스포크 시스템을 통해 완벽한 침실을 완성하는 ‘마테라소(MATERASSO)’를 소개한다.
+                </p>
+                <em>좋은 잠을 찾아서, 마테라소 [기획전 보러가기]</em>
+              </div>
+            </a>
+          </div>
+          <button class="btn-circle">더보러가기</button>
+        </div>
+      </section>
+      <section class="banner">
+        <h2 class="hide">까사미아 배너</h2>
+        <div class="txt">
+          <h3>허물지 않고 나답게 만드는 공간</h3>
+          <p>
+            부분 리모델링을 전문으로 하는 아파트멘터리는 누구나 아름다운 집에 살 수 있다는 말을 실현해내고 있다. 각자의 자리를 만들어가며 자유롭게 일하는 사람들과 아파트멘터리만의 색이 돋보이는 구석구석을 지나 환한 빛이 드는 탁 트인 공간에서 한참 대화를 나누었다. 그들의 이야기를 듣다 보니 아파트 위에 쌓아 올려진 편견 어린 말들은 사라지고, 누구나 꿈꾸는 아름다운 공간으로 새롭게 정의되고 있었다.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="inner">
+        <div class="footer-inner">
+          <div class="info">
+            <div class="footer-logo"><img src="img/logo.png" alt="메인로고"></div>
+            <ul>
+              <li><a href="#none">개인정보처리방침</a></li>
+              <li><a href="#none">서비스 이용약관</a></li>
+              <li><a href="#none">영상정보처리기기 운영관리방침</a></li>
+              <li><a href="#none">회사소개</a></li>
+              <li><a href="#none">채용정보</a></li>
+            </ul>
+            <p>
+              상호명 : (주)신세계까사 | 대표이사 : 김홍극 | 주소 : 서울시 중구 남대문시장10길2 메사빌딩 5-6층 | 사업자등록번호 : 120-81-11794 | 통신판매업 신고:2021-서울중구-1960 | 개인정보보호책임자 : 김찬후 | 사업자 정보확인 | 호스팅제공자 : (주)신세계아이앤씨 | e-mail:guud@shinsegae.com | 에스크로 서비스 가입확인
+            </p>
+            <span>Copyright©2023 SHINSEGAE CASA Co., Ltd. All rights reserved</span>
+          </div>
+          <div class="contact">
+            <span>까사미아 상품 AS접수</span>
+            <div class="center">
+              <div>고객문의 대표전화<a href="tel:000-0000">1566-0228</a></div>
+              <div>신세계까사 AS전화<a href="tel:000-0000">1566-0228</a></div>
+            </div>
+            <em>평일 09:00-18:00 (주말 및 공휴일 휴무)</em>
+            <div class="inquiry">
+              <button>까사미아 대리점 개설안내</button>
+              <button>굳닷컴 입점문의</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- EVENT-NAV -->
+    <div class="event">
+      <a href="#none"></a>
+      <a href="#none"></a>
+      <a href="#none"></a>
+    </div>
+    <!-- GOTOTOP -->
+    <a href="#" class="gototop"></a>
+
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
