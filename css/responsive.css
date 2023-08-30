@@ -22,6 +22,9 @@
   .inner {
     padding: 0 20px;
   }
+  header {
+    height: 60px;
+  }
   header .header-inner {
     width: 100%;
     height: 60px;
@@ -30,9 +33,9 @@
   header nav {
     position: fixed;
     width: 60%;
+    height: 100%;
     right: -60%;
     top: 0;
-    bottom: 0;
     z-index: 100;
     padding: 20px;
     background-color: #1D232C;
@@ -128,7 +131,7 @@
     transform: rotate(-45deg);
   }
   .visual {
-    margin-top: -50.8vh;
+    margin-top: -46.8vh;
   }
   .home .items a .image {
     height: 300px;
@@ -147,14 +150,11 @@
   .slick-next {
     right: 41%;
   }
-  header {
-    height: 70px;
-  }
   .visual-bg {
     height: 43vh;
   }
   .visual {
-    margin-top: -45.5vh;
+    margin-top: -44.2vh;
   }
   .visual .visual-slider .visualbg {
     margin: 0 50px;
@@ -199,7 +199,17 @@
   .slick-next {
     right: 35%;
   }
+  header {
+    height: 50px;
+  }
+  header.active {
+    height: 50px;
+  }
+  header.active .header-inner {
+    height: 50px;
+  }
   header .header-inner {
+    height: 50px;
     padding: 0 25px;
   }
   header nav {
@@ -210,7 +220,7 @@
     height: 48vh;
   }
   .visual {
-    margin-top: -50vh;
+    margin-top: -49.7vh;
   }
   .visual .visual-slider .visualbg {
     height: 484px;
@@ -282,6 +292,16 @@
   .slick-next {
     right: 28%;
   }
+  header h1 {
+    width: 60px;
+  }
+  header h1 img {
+    width: 100%;
+  }
+  header .trigger {
+    width: 28px;
+    height: 16px;
+  }
   header .gnb {
     margin-top: 13vh;
     height: 80vh;
@@ -334,9 +354,15 @@
     padding: 4px 10px;
     margin: 0;
   }
+  .service .heading p span {
+    display: block;
+  }
   .exhibition .exhibition-slider > div a {
     margin: 6px;
     background-size: 160px;
+  }
+  .exhibition .exhibition-slider > div a .hover-bg {
+    display: none;
   }
   .exhibition .exhibition-slider .first > a, .exhibition .exhibition-slider .third > a {
     height: 300px;
@@ -402,6 +428,7 @@
   }
   footer .contact .inquiry button {
     font-size: 11px;
+    color: #000;
   }
   .event {
     bottom: 10.5vh;
