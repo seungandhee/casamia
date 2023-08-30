@@ -323,18 +323,8 @@ $light-gray-color: #ddd;
 
   // HEADER
   header {
-    height: 50px;
-
-    &.active {
-      height: 50px;
-
-      .header-inner {
-        height: 50px;
-      }
-    }
 
     .header-inner {
-      height: 50px;
       padding: 0 25px;
     }
     
@@ -478,19 +468,6 @@ $light-gray-color: #ddd;
 
   // HEADER
   header {
-
-    h1 {
-      width: 60px;
-
-      img {
-        width: 100%;
-      }
-    }
-
-    .trigger {
-      width: 28px;
-      height: 16px;
-    }
 
     .gnb {
       margin-top: 13vh;

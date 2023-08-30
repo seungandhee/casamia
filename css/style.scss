@@ -182,6 +182,14 @@ header {
     }
   }
 
+  h1 {
+    width: 85px;
+
+    img {
+      width: 100%;
+    }
+  }
+
   .header-inner {
     display: flex;
     justify-content: space-between;
@@ -190,10 +198,6 @@ header {
     height: 94px;
     margin: 0 auto;
     padding: 0 30px;
-  }
-
-  img {
-    filter: invert(1);
   }
 
   .gnb {
@@ -280,6 +284,7 @@ header {
       img {
         height: 20px;
         transition: .5s;
+        filter: invert(1);
       }
     }
   }
@@ -299,6 +304,10 @@ header {
 
     &.active {
       top: 0;
+    }
+
+    img {
+      filter: invert(1);
     }
 
     input {
@@ -1008,6 +1017,12 @@ footer {
 
     .footer-logo {
       margin-bottom: 10px;
+      width: 85px;
+
+      img {
+        width: 100%;
+        filter: invert(1);
+      }
     }
 
     ul {

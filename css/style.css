@@ -147,6 +147,12 @@ header.active .header-inner {
 header.active .search-window {
   height: 74px;
 }
+header h1 {
+  width: 85px;
+}
+header h1 img {
+  width: 100%;
+}
 header .header-inner {
   display: flex;
   justify-content: space-between;
@@ -155,9 +161,6 @@ header .header-inner {
   height: 94px;
   margin: 0 auto;
   padding: 0 30px;
-}
-header img {
-  filter: invert(1);
 }
 header .gnb {
   position: relative;
@@ -221,6 +224,7 @@ header .header-right > div:hover img {
 header .header-right > div img {
   height: 20px;
   transition: 0.5s;
+  filter: invert(1);
 }
 header .search-window {
   position: fixed;
@@ -237,6 +241,9 @@ header .search-window {
 }
 header .search-window.active {
   top: 0;
+}
+header .search-window img {
+  filter: invert(1);
 }
 header .search-window input {
   position: relative;
@@ -776,6 +783,11 @@ footer .info {
 }
 footer .info .footer-logo {
   margin-bottom: 10px;
+  width: 85px;
+}
+footer .info .footer-logo img {
+  width: 100%;
+  filter: invert(1);
 }
 footer .info ul {
   margin: 20px 0 10px;
