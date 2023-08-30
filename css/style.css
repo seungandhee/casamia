@@ -84,7 +84,7 @@ em {
   height: 22px;
   border: 1px solid #ccc;
   border-radius: 50%;
-  background: url(../img/arrow-right.png) no-repeat center/contain;
+  background: url(../img/arrow-right-slide.png) no-repeat center/contain;
   transition: 0.5s;
 }
 
@@ -110,18 +110,20 @@ em {
   display: block;
   margin: 0 auto;
   border: 1px solid #ddd;
-  padding: 5px 42px 5px 58px;
+  padding: 10px 40px 10px 48px;
   border-radius: 30px;
+  font-size: 13px;
   font-weight: 500;
   color: #000;
 }
 .btn-circle:after {
   content: "";
   display: inline-block;
-  width: 32px;
-  height: 32px;
+  width: 14px;
+  height: 14px;
+  margin-left: 6px;
   background: url(../img/arrow-right.png) no-repeat center/contain;
-  vertical-align: -11px;
+  vertical-align: -3px;
   transition: 0.3s;
 }
 .btn-circle:hover:after {
@@ -310,16 +312,10 @@ header .trigger {
 }
 .visual .visual-slider .visual2 {
   background-image: url(../img/visual-img2.jpg);
+  color: #000;
 }
 .visual .visual-slider .visual3 {
   background-image: url(../img/visual-img3.jpg);
-  color: #000;
-}
-.visual .visual-slider .visual4 {
-  background-image: url(../img/visual-img4.jpg);
-  background-size: 1400px;
-  background-position: right center;
-  color: #000;
 }
 .visual .visual-slider .slick-slide.slick-active {
   transform: scale(1.08);
@@ -423,10 +419,11 @@ header .trigger {
 .home .items a span:after {
   content: "";
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
   background: url(../img/arrow-right.png) no-repeat center/contain;
-  vertical-align: -8px;
+  vertical-align: -3px;
   transition: 0.5s;
 }
 .home .bell {
@@ -717,10 +714,11 @@ header .trigger {
 .magazine a .txt h4:after {
   content: "";
   display: inline-block;
-  width: 32px;
-  height: 32px;
-  background: url(../img/arrow-right.png);
-  vertical-align: -9px;
+  width: 20px;
+  height: 20px;
+  margin-left: 6px;
+  background: url(../img/arrow-right.png) no-repeat center/contain;
+  vertical-align: -3px;
   transition: 0.5s;
 }
 .magazine a .txt span {

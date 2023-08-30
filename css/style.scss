@@ -106,7 +106,7 @@ em {
     height: 22px;
     border: 1px solid #ccc;
     border-radius: 50%;
-    background: url(../img/arrow-right.png) no-repeat center/contain;
+    background: url(../img/arrow-right-slide.png) no-repeat center/contain;
     transition: .5s;
   }
 }
@@ -136,18 +136,20 @@ em {
   display: block;
   margin: 0 auto;
   border: 1px solid $light-gray-color;
-  padding: 5px 42px 5px 58px;
+  padding: 10px 40px 10px 48px;
   border-radius: 30px;
+  font-size: 13px;
   font-weight: 500;
   color: #000;
 
   &:after {
     content: '';
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 14px;
+    height: 14px;
+    margin-left: 6px;
     background: url(../img/arrow-right.png) no-repeat center/contain;
-    vertical-align: -11px;
+    vertical-align: -3px;
     transition: .3s;
   }
 
@@ -387,18 +389,11 @@ header {
 
     .visual2 {
       background-image: url(../img/visual-img2.jpg);
+      color: #000;
     }
 
     .visual3 {
       background-image: url(../img/visual-img3.jpg);
-      color: #000;
-    }
-
-    .visual4 {
-      background-image: url(../img/visual-img4.jpg);
-      background-size: 1400px;
-      background-position: right center;
-      color: #000;
     }
 
     // SLICK JS
@@ -539,10 +534,11 @@ header {
         &:after  {
           content: '';
           display: inline-block;
-          width: 25px;
-          height: 25px;
+          width: 14px;
+          height: 14px;
+          margin-left: 4px;
           background: url(../img/arrow-right.png) no-repeat center/contain;
-          vertical-align: -8px;
+          vertical-align: -3px;
           transition: .5s;
         }
       }
@@ -934,10 +930,11 @@ header {
         &:after {
           content: '';
           display: inline-block;
-          width: 32px;
-          height: 32px;
-          background: url(../img/arrow-right.png);
-          vertical-align: -9px;
+          width: 20px;
+          height: 20px;
+          margin-left: 6px;
+          background: url(../img/arrow-right.png) no-repeat center/contain;
+          vertical-align: -3px;
           transition: .5s;
         }
       }
