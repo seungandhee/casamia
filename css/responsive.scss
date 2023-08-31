@@ -4,6 +4,14 @@ $navy-color: #1D232C;
 $gray-color: #777;
 $light-gray-color: #ddd;
 
+@media (max-height: 850px) {
+
+  // SHORTCUT
+  .shortcut {
+    padding: 40px 0;
+  }
+}
+
 @media (max-width: 1480px) {
 
   // SLICK JS
