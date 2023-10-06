@@ -803,6 +803,10 @@ footer .info p {
   line-height: 1.6;
   margin-bottom: 10px;
 }
+footer .info > span {
+  color: rgb(15, 157, 186);
+  font-weight: 700;
+}
 footer .contact {
   padding-left: 100px;
 }
